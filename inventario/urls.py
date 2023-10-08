@@ -17,4 +17,7 @@ urlpatterns = [
     # URLs para Órdenes de Productos
     path('ordenproductos/', views.OrdenProductoListCreateView.as_view(), name='ordenproducto-list-create'),
     path('ordenproductos/<int:pk>/', views.OrdenProductoDetailView.as_view(), name='ordenproducto-detail'),
+
+    # URLs para Cantidad de Categorias (API personalizada)
+    path('categorias/cantidad/', views.categoria_count, name='categorias_cantidad'),
 ]

@@ -1,4 +1,6 @@
 from rest_framework import generics
+from django.http import JsonResponse
+from rest_framework.decorators import api_view
 from .models import Categoria, Producto, Orden, OrdenProducto
 from .serializers import CategoriaSerializer, ProductoSerializer, OrdenSerializer, OrdenProductoSerializer
 
@@ -37,3 +39,12 @@ class OrdenProductoListCreateView(generics.ListCreateAPIView):
 class OrdenProductoDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = OrdenProducto.objects.all()
     serializer_class = OrdenProductoSerializer
+
+# Vista para la API personalizada (Cantidad de registos en la tabla Categorias)
+@api_view(["GET"])
+def categoria_count(request):
+    try:
+        cantidad = Categoria.objects.count()
+        return JsonResponse({"cantidad": cantidad}, safe=False, status=200,)
+    except Exception as e:
+        return JsonResponse({"message": str(e)}, safe=False, status=500)

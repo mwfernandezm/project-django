@@ -21,15 +21,19 @@ Una Orden puede tener varias OrdenesProductos.
 La app de inventario tiene las siguientes API genericas:
 
 GET, POST inventario/categorias/
+
 GET/<int:pk, PUT, DELETE inventario/categorias/<int:pk>/
 
 GET, POST inventario/productos/
+
 GET/<int:pk, PUT, DELETE inventario/productos/<int:pk>/
 
 GET, POST inventario/ordenes/
+
 GET/<int:pk, PUT, DELETE inventario/ordenes/<int:pk>/
 
 GET, POST inventario/ordenproductos/
+
 GET/<int:pk, PUT, DELETE inventario/ordenproductos/<int:pk>/
 
 La app de inventario valida los siguientes campo de la tabla Categoria y Producto:

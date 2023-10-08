@@ -44,7 +44,7 @@ valida que el campo descripcion de la tabla Producto pueda recibir solo texto
 
 valida que el campo cantidad de la tabla OrdenProducto reciba cantindad menor o igual a 100
 
-La app de invetario tiene la siguiente ruta persoanlizada que permite leer la cantidad de registros de la tabla Categoria
+La app de invetario tiene la siguiente ruta de la API personalizada que permite obtener la cantidad de registros de la tabla Categoria
 
 GET inventario/ categorias/cantidad/
 
@@ -52,7 +52,7 @@ Los integrantes que participaron en el desarrollo de la app de inventario son:
 
 Fernandez Mamani Marin Wenceslao
 
-Heredia Gonzales Alejandro
+Gonzales Heredia Alejandro
 
 Lavayen Pinto Gabriel Alfredo
 

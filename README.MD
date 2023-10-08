@@ -1,23 +1,24 @@
-API REST CON DJANGO
+APP INVENTARIO
 
-Es una app inventario del sistema repapp (APP de Repuestos) desarrollado con el framework Django para una tienda o distribuidor de auto partes
+La app de inventario del sistema repapp (REPuestos APP) fue desarrollado con el framework Django para un distribuidor de auto partes
 
-La app inventario se tienen 4 tablas:
+La app de inventario se tienen 4 tablas:
 
-Categoria,
-Producto,
-Orden,
+Categoria
+
+Producto
+
+Orden
+
 OrdenProducto
 
-Una Categoria puede tener varios Productos
+Una Categoria puede tener varios Productos.
 
-Un Producto puede tener varios OrdenesProductos
+Un Producto puede tener varios OrdenesProductos.
 
-Una Orden puede tener varias OrdenesProductos
+Una Orden puede tener varias OrdenesProductos.
 
-La app inventario tiene las siguientes rutas:
-
-API genericas:
+La app de inventario tiene las siguientes API genericas:
 
 GET, POST inventario/categorias/
 GET/<int:pk, PUT, DELETE inventario/categorias/<int:pk>/
@@ -31,19 +32,19 @@ GET/<int:pk, PUT, DELETE inventario/ordenes/<int:pk>/
 GET, POST inventario/ordenproductos/
 GET/<int:pk, PUT, DELETE inventario/ordenproductos/<int:pk>/
 
-La app Inventario valida el campo:
+La app de inventario valida los siguientes campo de la tabla Categoria y Producto:
 
-valida que el campo nombre de la tabla Categorias pueda recibir solo texto
+valida que el campo nombre de la tabla Categoria pueda recibir solo texto
 
 valida que el campo descripcion de la tabla Producto pueda recibir solo texto
 
-valida que el campo cantidad de la tabal OrdenProducto reciba cantindad menor o igual a 100
+valida que el campo cantidad de la tabla OrdenProducto reciba cantindad menor o igual a 100
 
-API customizada que permite leer la cantidad de registros de la tabla Categoria
+La app de invetario tiene la siguiente ruta persoanlizada que permite leer la cantidad de registros de la tabla Categoria
 
 GET inventario/ categorias/cantidad/
 
-Los integrantes que participaron en el desarrollo de la app inventarios son:
+Los integrantes que participaron en el desarrollo de la app de inventario son:
 
 Alejandro
 

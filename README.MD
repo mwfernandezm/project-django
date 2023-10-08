@@ -26,7 +26,7 @@ GET/id, PUT, DELETE inventario/categorias/id/
 
 GET, POST inventario/productos/
 
-GET/id, PUT, DELETE inventario/productos/id>/
+GET/id, PUT, DELETE inventario/productos/id/
 
 GET, POST inventario/ordenes/
 

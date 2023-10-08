@@ -22,19 +22,19 @@ La app de inventario tiene las siguientes API genericas:
 
 GET, POST inventario/categorias/
 
-GET/<int:pk, PUT, DELETE inventario/categorias/<int:pk>/
+GET/id, PUT, DELETE inventario/categorias/id/
 
 GET, POST inventario/productos/
 
-GET/<int:pk, PUT, DELETE inventario/productos/<int:pk>/
+GET/id, PUT, DELETE inventario/productos/id>/
 
 GET, POST inventario/ordenes/
 
-GET/<int:pk, PUT, DELETE inventario/ordenes/<int:pk>/
+GET/id, PUT, DELETE inventario/ordenes/id/
 
 GET, POST inventario/ordenproductos/
 
-GET/<int:pk, PUT, DELETE inventario/ordenproductos/<int:pk>/
+GET/id, PUT, DELETE inventario/ordenproductos/id/
 
 La app de inventario valida los siguientes campo de la tabla Categoria y Producto:
 

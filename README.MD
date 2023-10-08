@@ -50,10 +50,10 @@ GET inventario/ categorias/cantidad/
 
 Los integrantes que participaron en el desarrollo de la app de inventario son:
 
-Alejandro
+Fernandez Mamani Marin Wenceslao
 
-Gabriel Lavagen
+Heredia Gonzales Alejandro
 
-Marin Fernandez
+Lavayen Pinto Gabriel Alfredo
 
-Victor Flores
+Victor

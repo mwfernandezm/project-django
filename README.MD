@@ -52,8 +52,8 @@ Los integrantes que participaron en el desarrollo de la app de inventario son:
 
 Fernandez Mamani Marin Wenceslao
 
+Flores Medrano Victor Hugo
+
 Gonzales Heredia Alejandro
 
 Lavayen Pinto Gabriel Alfredo
-
-Victor
